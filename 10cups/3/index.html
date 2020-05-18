@@ -1,0 +1,522 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+
+
+</head>
+
+<body style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
+<style>
+    @media only screen {
+        html {
+            min-height: 100%;
+            background: #ffffff;
+        }
+    }
+
+    @media only screen and (max-width: 632px) {
+        .small-float-center {
+            margin: 0 auto !important;
+            float: none !important;
+            text-align: center !important;
+        }
+        .small-text-center {
+            text-align: center !important;
+        }
+        .small-text-left {
+            text-align: left !important;
+        }
+        .small-text-right {
+            text-align: right !important;
+        }
+    }
+
+    @media only screen and (max-width: 632px) {
+        .hide-for-large {
+            display: block !important;
+            width: auto !important;
+            overflow: visible !important;
+            max-height: none !important;
+            font-size: inherit !important;
+            line-height: inherit !important;
+        }
+    }
+
+    @media only screen and (max-width: 632px) {
+        table.body table.container .hide-for-large,
+        table.body table.container .row.hide-for-large {
+            display: table !important;
+            width: 100% !important;
+        }
+    }
+
+    @media only screen and (max-width: 632px) {
+        table.body table.container .callout-inner.hide-for-large {
+            display: table-cell !important;
+            width: 100% !important;
+        }
+    }
+
+    @media only screen and (max-width: 632px) {
+        table.body table.container .show-for-large {
+            display: none !important;
+            width: 0;
+            mso-hide: all;
+            overflow: hidden;
+        }
+    }
+
+    @media only screen and (max-width: 632px) {
+        table.body img {
+            width: auto;
+            height: auto;
+        }
+        table.body center {
+            min-width: 0 !important;
+        }
+        table.body .container {
+            width: 95% !important;
+        }
+        table.body .columns,
+        table.body .column {
+            height: auto !important;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding-left: 16px !important;
+            padding-right: 16px !important;
+        }
+        table.body .columns .column,
+        table.body .columns .columns,
+        table.body .column .column,
+        table.body .column .columns {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        table.body .collapse .columns,
+        table.body .collapse .column {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        td.small-1,
+        th.small-1 {
+            display: inline-block !important;
+            width: 8.33333% !important;
+        }
+        td.small-2,
+        th.small-2 {
+            display: inline-block !important;
+            width: 16.66667% !important;
+        }
+        td.small-3,
+        th.small-3 {
+            display: inline-block !important;
+            width: 25% !important;
+        }
+        td.small-4,
+        th.small-4 {
+            display: inline-block !important;
+            width: 33.33333% !important;
+        }
+        td.small-5,
+        th.small-5 {
+            display: inline-block !important;
+            width: 41.66667% !important;
+        }
+        td.small-6,
+        th.small-6 {
+            display: inline-block !important;
+            width: 50% !important;
+        }
+        td.small-7,
+        th.small-7 {
+            display: inline-block !important;
+            width: 58.33333% !important;
+        }
+        td.small-8,
+        th.small-8 {
+            display: inline-block !important;
+            width: 66.66667% !important;
+        }
+        td.small-9,
+        th.small-9 {
+            display: inline-block !important;
+            width: 75% !important;
+        }
+        td.small-10,
+        th.small-10 {
+            display: inline-block !important;
+            width: 83.33333% !important;
+        }
+        td.small-11,
+        th.small-11 {
+            display: inline-block !important;
+            width: 91.66667% !important;
+        }
+        td.small-12,
+        th.small-12 {
+            display: inline-block !important;
+            width: 100% !important;
+        }
+        .columns td.small-12,
+        .column td.small-12,
+        .columns th.small-12,
+        .column th.small-12 {
+            display: block !important;
+            width: 100% !important;
+        }
+        table.body table.columns td.expander,
+        table.body table.columns th.expander {
+            display: none !important;
+        }
+        table.body .right-text-pad,
+        table.body .text-pad-right {
+            padding-left: 10px !important;
+        }
+        table.body .left-text-pad,
+        table.body .text-pad-left {
+            padding-right: 10px !important;
+        }
+        table.menu {
+            width: 100% !important;
+        }
+        table.menu td,
+        table.menu th {
+            width: auto !important;
+            display: inline-block !important;
+        }
+        table.menu.vertical td,
+        table.menu.vertical th,
+        table.menu.small-vertical td,
+        table.menu.small-vertical th {
+            display: block !important;
+        }
+        table.menu[align="center"] {
+            width: auto !important;
+        }
+        table.button.small-expand,
+        table.button.small-expanded {
+            width: 100% !important;
+        }
+        table.button.small-expand table,
+        table.button.small-expanded table {
+            width: 100%;
+        }
+        table.button.small-expand table a,
+        table.button.small-expanded table a {
+            text-align: center !important;
+            width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        table.button.small-expand center,
+        table.button.small-expanded center {
+            min-width: 0;
+        }
+        tbody.m-order {
+            display: flex;
+            flex-direction: column;
+        }
+        .columns th.small-12.m-bottom {
+            display: table-footer-group!important;
+        }
+        .columns th.small-12.m-top {
+            display: table-header-group!important;
+        }
+    }
+
+    @media only screen and (max-width: 632px) {
+        .step-text {
+            width: 200px!important;
+        }
+    }
+</style>
+<table align="center" class="body" data-made-with-foundation="" style="Margin: 0; background: #fff; border-collapse: collapse; border-spacing: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; height: 100%; line-height: 1.4; margin: 0; padding: 0; text-align: left; vertical-align: middle; width: 100%;">
+    <tbody>
+    <tr style="padding: 0; text-align: left; vertical-align: middle;">
+        <td class="center" align="center" valign="top" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-height: 1.4; margin: 0; padding: 0; text-align: left; vertical-align: middle; word-wrap: break-word;">
+            <center data-parsed="" style="min-width: 632px; width: 100%;">
+                <table align="center" class="container float-center" style="Margin: 0 auto; background: #ffffff; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: middle; width: 632px;">
+                    <tbody>
+                    <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                        <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-height: 1.4; margin: 0; padding: 0; text-align: left; vertical-align: middle; word-wrap: break-word;">
+                            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%;">
+                                <tbody>
+                                <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                    <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;">
+                                        <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: middle; width: 100%;">
+                                            <tbody>
+                                            <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                <th style="Margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left;">
+                                                    <center data-parsed="" style="min-width: 532px; width: 100%;">
+                                                        <img src="logoText.jpg" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                                                        <img src="top.jpg" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                                                    </center>
+                                                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: middle; width: 100%;">
+                                                        <tbody>
+                                                        <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                            <td height="50px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-height: 1.4; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: middle; word-wrap: break-word;"></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: middle; width: 100%;">
+                                                        <tbody>
+                                                        <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                            <th style="Margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left;">
+                                                                <center data-parsed="" style="min-width: 532px; width: 100%;">
+                                                                    <h4 class="text-center" style="Margin: 0; Margin-bottom: 15px; color: inherit; font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; line-height: 1.4; margin: 0; margin-bottom: 15px; padding: 0; text-align: center; word-wrap: normal;">ПРИВЕТ!</h4>
+                                                                    <p class="lead text-center" style="Margin: 0; Margin-bottom: 10px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.4; margin: 0; margin-bottom: 50px; padding: 0; text-align: center;">
+                                                                        Мы очень рады, что ты стал клиентом сервиса 10СUPS!
+                                                                        <br class="show-for-large"> Чтобы тебе было удобно, мы постарались собрать в одном письме<br class="show-for-large"> всю необходимую тебе информацию:
+                                                                    </p>
+                                                                </center>
+                                                            </th>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%;">
+                                                        <tbody>
+                                                        <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                            <th class="small-12 large-6 columns first" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 0; padding-bottom: 35px; padding-left: 0 !important; padding-right: 0 !important; text-align: left; width: 50%;">
+                                                                <img src="section1.png" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                                                            </th>
+                                                            <th class="small-12 large-6 columns last" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 0; padding-bottom: 35px; padding-left: 0 !important; padding-right: 0 !important; text-align: left; width: 50%;">
+                                                                <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: middle; width: 100%;">
+                                                                    <tbody>
+                                                                    <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                                        <th style="Margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left;">
+                                                                            <h6 style="Margin: 0; Margin-bottom: 15px; color: inherit; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; line-height: 1.4; margin: 0; margin-bottom: 15px; padding: 0; text-align: left; word-wrap: normal;">Личный кабинет</h6>
+                                                                            <p style="Margin: 0; Margin-bottom: 10px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">
+                                                                                В личном кабинете ты сможешь найти статистику, отзывы и всю правовую информацию.
+                                                                            </p>
+                                                                            <p style="Margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin-bottom: 15px; padding: 0; text-align: left;">
+                                                                                Логин: <b>%логин%</b>
+                                                                                <br> Пароль: <b>одноразовый, каждый раз приходит на почту.</b>
+                                                                            </p>
+                                                                            <table class="button" style="Margin: 22px 0 0 0; border-collapse: collapse; border-spacing: 0; margin: 22px 0 0 0; padding: 0; text-align: left; vertical-align: middle; width: auto;">
+                                                                                <tbody>
+                                                                                <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                                                    <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-height: 1.4; margin: 0; padding: 0; text-align: left; vertical-align: middle; word-wrap: break-word;"><a href="https://my.10cups.ru/" style="Margin: 0; padding: 8px 28px; color: #ffffff; background-color: #ff2462; font-family: Arial, Helvetica, sans-serif; font-weight: bold; line-height: 1; margin: 0; text-align: center; text-decoration: none;">Перейти в кабинет</a></td>
+                                                                                </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </th>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </th>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: center; vertical-align: middle; width: 100%;">
+                                                        <tbody class="m-order">
+                                                        <tr style="padding: 0; text-align: center; vertical-align: middle;">
+                                                            <td class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; text-align: center; width: 100%; padding: 0 0 30px;">
+                                                                <p style="Margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; line-height: 1.4; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;">Основные функции, которыми ты можешь воспользоваться:</p>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%;">
+                                                        <tbody class="m-order">
+                                                        <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                            <td class="small-12 large-6 columns first m-top" style="Margin: 0 auto 20px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto 20px; height: 80px; padding: 15px 0; text-align: left; width: 290px; float: left; vertical-align: top; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);">
+                                                                <p style="margin: 0 15px 0 15px; float: left;"><img src="icon1.png" align="left" class="float-left" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0; max-width: 100%; outline: none; text-align: left; text-decoration: none; width: auto;" alt></p>
+                                                                <p class="step-text" style="margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; padding: 0; text-align: left; width: 210px; float: left;">Главная страница – вся информация по работе вашего заведения: лучшие сотрудники, постоянные клиенты, продажи.</p>
+                                                            </td>
+                                                            <td class="small-12 large-6 columns last m-bottom" style="Margin: 0 auto 20px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto 20px; height: 80px; padding: 15px 0; text-align: left; width: 290px; float: right; vertical-align: top; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);">
+                                                                <p style="margin: 0 15px 0 15px; float: left;"><img src="icon2.png" align="left" class="float-left" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0; max-width: 100%; outline: none; text-align: left; text-decoration: none; width: auto;" alt></p>
+                                                                <p class="step-text" style="margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; padding: 0; text-align: left; width: 210px; float: left;">Выгрузка в excel и просмотр транзакций, пользователей и комментариев от них.</p>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%; margin-bottom: 80px;">
+                                                        <tbody class="m-order">
+                                                        <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                            <td class="small-12 large-6 columns first m-top" style="Margin: 0 auto 20px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto 20px; height: 80px; padding: 15px 0; text-align: left; width: 290px; float: left; vertical-align: top; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);">
+                                                                <p style="margin: 0 15px 0 15px; float: left;"><img src="icon3.png" align="left" class="float-left" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0; max-width: 100%; outline: none; text-align: left; text-decoration: none; width: auto;" alt></p>
+                                                                <p class="step-text" style="margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; padding: 0; text-align: left; width: 210px; float: left;">Просмотр всех операций по счету компании (пополнения\списание), выгрузка счета на оплату.</p>
+                                                            </td>
+                                                            <td class="small-12 large-6 columns last m-bottom" style="Margin: 0 auto 20px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto 20px; height: 80px; padding: 15px 0; text-align: left; width: 290px; float: right; vertical-align: top; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);">
+                                                                <p style="margin: 0 15px 0 15px; float: left;"><img src="icon4.png" align="left" class="float-left" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0; max-width: 100%; outline: none; text-align: left; text-decoration: none; width: auto;" alt></p>
+                                                                <p class="step-text" style="margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; padding: 0; text-align: left; width: 210px; float: left;">Рассылка уведомлений клиентам кофейни и еще одна строка для гармоничности.</p>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: center; vertical-align: middle; width: 100%;">
+                                                        <tbody class="m-order">
+                                                        <tr style="padding: 0; text-align: center; vertical-align: middle;">
+                                                            <td class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; text-align: center; width: 100%; padding: 0 0 30px;">
+                                                                <p style="Margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; line-height: 1.4; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;">Работа сотрудников</p>
+                                                                <p style="Margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.4; margin: 0; padding: 0; text-align: center;">Для сотрудников все также просто, им необходимо:</p>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%; margin-bottom: 10px;">
+                                                        <tbody class="m-order">
+                                                        <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                            <td class="small-12 large-12 columns" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 15px 0 16px; background-color: #00fee4; text-align: left; vertical-align: top;">
+                                                                <p style="margin: 0 0 10px 20px;"><img src="step1.png" align="left" class="float-left" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0; max-width: 100%; outline: none; text-align: left; text-decoration: none; width: auto;" alt></p>
+                                                                <p style="margin: 0 20px 0 20px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; padding: 0; text-align: left;">Скачать приложение 10cups  в App Store или Google play.</p>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%; margin-bottom: 10px;">
+                                                        <tbody class="m-order">
+                                                        <tr>
+                                                            <td class="small-12 large-12 columns" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 15px 0 16px; background-color: #ff2362; text-align: left; vertical-align: top;">
+                                                                <p style="margin: 0 0 10px 20px;"><img src="step2.png" align="left" class="float-left" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0; max-width: 100%; outline: none; text-align: left; text-decoration: none; width: auto;" alt></p>
+                                                                <p style="margin: 0 20px 0 20px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; padding: 0; text-align: left;">Ввести свой номер телефона и полученный код подтверждения для входа – сотрудник зарегистрирован.</p>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%; margin-bottom: 10px;">
+                                                        <tbody class="m-order">
+                                                        <tr>
+                                                            <td class="small-12 large-12 columns" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 15px 0 16px; background-color: #f6d857; text-align: left; vertical-align: top;">
+                                                                <p style="margin: 0 0 10px 20px;"><img src="step3.png" align="left" class="float-left" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0; max-width: 100%; outline: none; text-align: left; text-decoration: none; width: auto;" alt></p>
+                                                                <p style="margin: 0 20px 0 20px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; padding: 0; text-align: left;">
+                                                                    Далее сотрудник сообщает пришедшему клиент об акции, предлагает скачать приложение 10Cups (занимает меньше минуты, приложение очень простое для клиента и всегда под рукой информация о накопленных продуктах), если клиент отказывается, предлагает воспользоваться <a href="https://tele.click/TenCups_Support_bot" style="Margin: 0; color: #2199e8; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left;">телеграм-ботом @TenCups_bot</a> и также провести накопления.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%; margin-bottom: 100px;">
+                                                    <tbody class="m-order">
+                                                        <tr>
+                                                            <td class="small-12 large-12 columns" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 15px 0 16px; background-color: #44bcfd; text-align: left; vertical-align: top;">
+                                                                <p style="margin: 0 0 10px 20px;"><img src="step4.png" align="left" class="float-left" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0; max-width: 100%; outline: none; text-align: left; text-decoration: none; width: auto;" alt></p>
+                                                                <p style="margin: 0 20px 0 20px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; padding: 0; text-align: left;">Просит клиента показать qr-код, сам в приложении нажимает «Продать» и сканирует этот код, у клиента проходят накопления. Если у клиента уже накоплено получение бонусного продукта, то сотрудник получает уведомление выдать продукт бесплатно!</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%;">
+                                                        <tbody class="m-order">
+                                                        <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                            <th class="small-12 large-6 columns first m-bottom" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 0; padding-bottom: 35px; padding-left: 0 !important; padding-right: 0 !important; text-align: left; width: 50%;">
+                                                                <h6 style="Margin: 0; Margin-bottom: 15px; color: inherit; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; line-height: 1.4; margin: 0; margin-bottom: 15px; padding: 0; text-align: left; word-wrap: normal;">Оплата сервиса</h6>
+                                                                <p style="Margin: 0; Margin-bottom: 10px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">
+                                                                    Пополняй баланс в разделе «Финансы», там же можешь и посмотреть свой баланс. За 5 дней до срока придет напоминалка в почту, не забудь оплатить, иначе сервис перестанет работать. Закрывающие документы придут Почтой России.
+                                                                </p>
+                                                            </th>
+                                                            <th class="small-12 large-6 columns last m-top" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 0; padding-bottom: 35px; padding-left: 0 !important; padding-right: 0 !important; text-align: left; width: 50%;">
+                                                                <img src="section2.png" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                                                            </th>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%;">
+                                                        <tbody>
+                                                        <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                            <th class="small-12 large-6 columns first" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 0; padding-bottom: 35px; padding-left: 0 !important; padding-right: 0 !important; text-align: left; width: 50%;">
+                                                                <img src="section3.png" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                                                            </th>
+                                                            <th class="small-12 large-6 columns last" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 0; padding-bottom: 35px; padding-left: 0 !important; padding-right: 0 !important; text-align: left; width: 50%;">
+                                                                <h6 style="Margin: 0; Margin-bottom: 15px; color: inherit; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; line-height: 1.4; margin: 0; margin-bottom: 15px; padding: 0; text-align: left; word-wrap: normal;">Новости, обновления, вопросы</h6>
+                                                                <p style="Margin: 0; Margin-bottom: 10px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">
+                                                                    Мы регулярно добавляем новые фичи и делаем сервис лучше. Чтобы не пропустить обновления подпишись на наш <a href="https://tele.click/www10cups" style="Margin: 0; color: #2199e8; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left; text-decoration: none;">Telegram-канал</a>.
+                                                                    И не забудь подписаться на наши соцсети — ссылки внизу письма.
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%;">
+                                                        <tbody class="m-order">
+                                                        <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                            <th class="small-12 large-6 columns first m-bottom" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 0; padding-bottom: 35px; padding-left: 0 !important; padding-right: 0 !important; text-align: left; width: 50%;">
+                                                                <h6 style="Margin: 0; Margin-bottom: 15px; color: inherit; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; line-height: 1.4; margin: 0; margin-bottom: 15px; padding: 0; text-align: left; word-wrap: normal;">Есть вопросы?</h6>
+                                                                <p style="Margin: 0; Margin-bottom: 10px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">
+                                                                    Если у вас, ваших сотрудников или клиентов возникают любые вопросы по работе сервиса, пиши в наш <a href="https://tele.click/TenCups_Support_bot" style="Margin: 0; color: #2199e8; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left; text-decoration: none;">чат-бот в Telegram</a>,
+                                                                    мы также ответим по почте <a href="mailto:info@10cups.ru" style="Margin: 0; color: #2199e8; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left; text-decoration: none;">info@10cups.ru</a>                                              или в директе инсты.
+                                                                </p>
+                                                            </th>
+                                                            <th class="small-12 large-6 columns last m-top" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 0; padding-bottom: 35px; padding-left: 0 !important; padding-right: 0 !important; text-align: left; width: 50%;">
+                                                                <img src="section4.png" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                                                            </th>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%;">
+                                                        <tbody>
+                                                        <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0 !important; padding-right: 0 !important; text-align: left; width: 100%;">
+                                                                <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: middle; width: 100%;">
+                                                                    <tbody>
+                                                                    <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                                        <th style="Margin: 0; background-color: #ff2362; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; height: 56px; line-height: 1.4; margin: 0; padding: 0; text-align: left;">
+                                                                            <center data-parsed="" style="min-width: none !important; width: 100%;">
+                                                                                <table align="center" class="menu float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: middle; width: auto !important;">
+                                                                                    <tbody>
+                                                                                    <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                                                        <th class="menu-item float-center" style="Margin: 0 auto; color: #000000; float: none; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 8px; padding-right: 8px; text-align: center;">
+                                                                                            <a href="https://instagram.com/10cups.ru" style="Margin: 0; color: #2199e8; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img src="icon-inst.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;"></a>
+                                                                                        </th>
+                                                                                        <th class="menu-item float-center" style="Margin: 0 auto; color: #000000; float: none; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 8px; padding-right: 8px; text-align: center;">
+                                                                                            <a href="https://www.facebook.com/10Cups-372484810253547/" style="Margin: 0; color: #2199e8; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img src="icon-fb.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;"></a>
+                                                                                        </th>
+                                                                                        <th class="menu-item float-center" style="Margin: 0 auto; color: #000000; float: none; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0 auto; padding: 8px; padding-right: 8px; text-align: center;">
+                                                                                            <a href="https://vk.com/10cups" style="Margin: 0; color: #2199e8; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img src="icon-vk.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;"></a>
+                                                                                        </th>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </center>
+                                                                        </th>
+                                                                    </tr>
+                                                                    <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                                        <th style="Margin: 0; background-color: #44bcfd; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; height: 56px; line-height: 1.4; margin: 0; padding: 0; text-align: left;">
+                                                                            <center data-parsed="" style="min-width: none !important; width: 100%;">
+                                                                                <table align="center" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: middle; width: 100%;">
+                                                                                    <tbody>
+                                                                                    <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                                                        <th style="Margin: 0; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0; padding: 0; text-align: left;">
+                                                                                            <p class="text-center" style="Margin: 0; Margin-bottom: 10px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+                                                                                                10CUPS © 2019
+                                                                                            </p>
+                                                                                        </th>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </center>
+                                                                        </th>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </th>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </center>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+
+</body>
+
+</html>
